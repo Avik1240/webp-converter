@@ -23,7 +23,7 @@ npx serve .
 
 ## Configure before publishing
 
-1. Replace every `https://example.com` with your canonical HTTPS domain, including `sitemap.xml`, `robots.txt`, and canonical tags.
+1. Replace every `https://webp-converter.jainavik2000.workers.dev` with your canonical HTTPS domain, including `sitemap.xml`, `robots.txt`, and canonical tags.
 2. Update donation URLs (Buy Me a Coffee, Patreon) with real project links when available.
 3. Put a valid GA4 measurement ID in `<meta name="google-analytics-id">` if you want analytics. Add Search Console and Bing verification tokens to their existing meta tags.
 4. Replace each `Advertisement` slot with your approved AdSense unit only after your privacy policy and consent requirements are satisfied. Keep ads out of the converter card.

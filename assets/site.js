@@ -1,6 +1,6 @@
 (() => {
   'use strict';
-  const origin = 'https://example.com'; // Replace with the production domain before launch.
+  const origin = 'https://webp-converter.jainavik2000.workers.dev'; // Replace with the production domain before launch.
   const currentPath = location.pathname.endsWith('/') ? location.pathname : `${location.pathname}/`;
   const conversions = [
     ['JPG to WebP', 'jpg-to-webp/'], ['PNG to WebP', 'png-to-webp/'], ['JPEG to WebP', 'jpeg-to-webp/'], ['GIF to WebP', 'gif-to-webp/'], ['BMP to WebP', 'bmp-to-webp/'], ['TIFF to WebP', 'tiff-to-webp/'], ['SVG to WebP', 'svg-to-webp/'], ['HEIC to WebP', 'heic-to-webp/'], ['WebP to PNG', 'webp-to-png/'], ['WebP to JPG', 'webp-to-jpg/']
