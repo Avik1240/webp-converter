@@ -1,0 +1,12 @@
+{
+  "name": "webp-converter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A free, private, browser-based image converter.",
+  "scripts": {
+    "test": "node scripts/validate-static.mjs",
+    "lint": "node --check assets/app.js && node --check assets/site.js && node --check assets/conversion-page.js",
+    "build": "npm run lint && npm test"
+  },
+  "license": "MIT"
+}
