@@ -1,0 +1,18 @@
+# Internal planning / session notes — not for the public repo
+SESSION-LOG.md
+LAUNCH-CHECKLIST.md
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+
+# Node (if dependencies are ever added)
+node_modules/
+
+# Cloudflare Wrangler local state
+.wrangler/
