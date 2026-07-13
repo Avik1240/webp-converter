@@ -265,3 +265,4 @@ body::after{width:640px;height:640px;right:-220px;top:38vh;background:radial-gra
   html{scroll-behavior:auto}
   *,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important}
   .reveal{opacity:1;transform:none}
+}
