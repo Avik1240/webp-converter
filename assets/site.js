@@ -38,3 +38,30 @@
   const analyticsId=document.querySelector('meta[name="google-analytics-id"]')?.content.trim();
   if (/^G-[A-Z0-9]+$/i.test(analyticsId)) { const script=document.createElement('script');script.async=true;script.src=`https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(analyticsId)}`;document.head.append(script);window.dataLayer=window.dataLayer||[];window.gtag=function(){window.dataLayer.push(arguments);};window.gtag('js',new Date());window.gtag('config',analyticsId,{anonymize_ip:true}); }
 })();
+
+/* Motion: parallax scroll variable + scroll-reveal (respects prefers-reduced-motion) */
+(() => {
+  'use strict';
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduce) return;
+  let ticking = false;
+  const onScroll = () => {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(() => {
+      document.documentElement.style.setProperty('--scroll-y', String(window.scrollY));
+      ticking = false;
+    });
+  };
+  addEventListener('scroll', onScroll, {passive: true});
+  onScroll();
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('in-view'); io.unobserve(e.target); } });
+    }, {threshold: .08, rootMargin: '0px 0px -5% 0px'});
+    document.querySelectorAll('main section, main article, .feature-grid article, .steps li, .faq details').forEach((el) => {
+      el.classList.add('reveal');
+      io.observe(el);
+    });
+  }
+})();
