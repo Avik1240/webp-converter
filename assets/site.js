@@ -60,6 +60,8 @@
       entries.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('in-view'); io.unobserve(e.target); } });
     }, {threshold: .08, rootMargin: '0px 0px -5% 0px'});
     document.querySelectorAll('main section, main article, .feature-grid article, .steps li, .faq details').forEach((el) => {
+      // Skip elements already visible on load so the first paint is never dimmed.
+      if (el.getBoundingClientRect().top < innerHeight * .9) return;
       el.classList.add('reveal');
       io.observe(el);
     });
