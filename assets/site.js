@@ -24,7 +24,7 @@
       .map(d => [d.querySelector('summary')?.textContent.trim(), d.querySelector('p')?.textContent.trim()])
       .filter(([q, a]) => q && a);
     schema.textContent = JSON.stringify({ '@context':'https://schema.org', '@graph':[
-      {'@type':'Organization','@id':`${origin}/#organization`,'name':'WebP Converter','url':origin,'sameAs':['https://github.com/Avik1240/webp-converter']},
+      {'@type':'Organization','@id':`${origin}/#organization`,'name':'WebP Converter','url':origin},
       {'@type':'WebSite','@id':`${origin}/#website`,'url':origin,'name':'WebP Converter','publisher':{'@id':`${origin}/#organization`}},
       {'@type':'SoftwareApplication','name':'WebP Converter','applicationCategory':'UtilitiesApplication','operatingSystem':'Any','isAccessibleForFree':true,'offers':{'@type':'Offer','price':'0','priceCurrency':'USD'},'url':`${origin}${currentPath}`,'description':'A free browser-based image to WebP converter.'},
       ...(pageFaqs.length ? [{'@type':'FAQPage','mainEntity':pageFaqs.map(([name,text])=>({'@type':'Question','name':name,'acceptedAnswer':{'@type':'Answer','text':text}}))}] : []),

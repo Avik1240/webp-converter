@@ -8,5 +8,5 @@
     "lint": "node --check assets/app.js && node --check assets/site.js && node --check assets/conversion-page.js",
     "build": "npm run lint && npm test"
   },
-  "license": "MIT"
+  "license": "UNLICENSED"
 }

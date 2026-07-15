@@ -22,6 +22,7 @@
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 Outfit,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;overflow-x:hidden}
 h1,h2,h3,h4{font-family:"Space Grotesk",Outfit,ui-sans-serif,system-ui,sans-serif;overflow-wrap:break-word}
+h1{font-size:clamp(30px,4.6vw,44px);letter-spacing:-.04em;line-height:1.12}
 a{color:inherit}
 img{max-width:100%;height:auto}
 [hidden]{display:none!important}
@@ -59,7 +60,7 @@ body::after{width:640px;height:640px;right:-220px;top:38vh;background:radial-gra
 .text-button:hover{color:var(--accent-strong)}
 
 /* Hero */
-.hero{padding:92px 0 56px;text-align:center;max-width:870px;position:relative}
+.hero{padding:92px 0 56px;text-align:center;max-width:870px;position:relative;margin-left:auto;margin-right:auto}
 .eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.16em;color:var(--accent);font-weight:700;margin:0 0 14px}
 .hero h1,.section-heading h2,.open-source h2,.support h2{letter-spacing:-.045em;line-height:1.06;margin:0}
 .hero h1{font-size:clamp(38px,7vw,66px);background:linear-gradient(115deg,#fff 30%,var(--accent-strong) 75%,#b25 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
@@ -169,7 +170,7 @@ body::after{width:640px;height:640px;right:-220px;top:38vh;background:radial-gra
 
 /* Notice + prose */
 .notice{border:1px solid #6b5a2c;background:#231d0d;color:#e8d48a;border-radius:12px;padding:14px 16px;font-size:14px;line-height:1.5;margin:0 0 18px}
-.prose{max-width:840px}
+.prose{max-width:840px;margin-left:auto;margin-right:auto}
 .prose h1{letter-spacing:-.04em;line-height:1.1}
 .prose h2{letter-spacing:-.03em;margin:34px 0 10px;font-size:clamp(22px,3.4vw,30px)}
 .prose p{color:var(--muted);font-size:15px;line-height:1.7}
