@@ -22,6 +22,7 @@
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 Outfit,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;overflow-x:hidden;display:flex;flex-direction:column;min-height:100vh}
 body>main{flex:1 0 auto;width:100%}
+body>main.section{padding-top:92px}
 .site-footer{margin-top:auto}
 h1,h2,h3,h4{font-family:"Space Grotesk",Outfit,ui-sans-serif,system-ui,sans-serif;overflow-wrap:break-word}
 h1{font-size:clamp(30px,4.6vw,44px);letter-spacing:-.04em;line-height:1.12}
@@ -115,7 +116,7 @@ body::after{width:640px;height:640px;right:-220px;top:38vh;background:radial-gra
 .image-card{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card);animation:rise .4s both;transition:transform .25s,box-shadow .25s}
 .image-card:hover{transform:translateY(-3px);box-shadow:var(--glow)}
 .image-preview{width:100%;aspect-ratio:1.35;object-fit:cover;background:#241b20;display:block}
-.image-body{padding:11px}
+.image-
 .image-name{font-weight:600;font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .image-meta{font-size:12px;color:var(--muted);margin:4px 0 9px}
 .badge{font-size:11px;border-radius:30px;padding:3px 9px;font-weight:700;display:inline-block;background:#2c2127;color:#b5a6ad}
@@ -127,13 +128,14 @@ body::after{width:640px;height:640px;right:-220px;top:38vh;background:radial-gra
 .card-actions .text-button{padding:6px}
 
 /* Sections */
-.section{padding:0 0 60px 0;}
+.section{padding:48px 0 64px}
 .section-tint{background:linear-gradient(180deg,var(--surface),#100b0e);padding:82px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-.feature-grid article{padding:23px;background:var(--card);border:1px solid var(--line);border-radius:13px;transition:transform .25s,border-color .25s,box-shadow .25s}
+.feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.feature-grid article{padding:28px;background:var(--card);border:1px solid var(--line);border-radius:13px;transition:transform .25s,border-color .25s,box-shadow .25s}
 .feature-grid article:hover{transform:translateY(-4px);border-color:#5c3444;box-shadow:var(--glow)}
 .feature-grid span{color:var(--accent-strong);font-size:24px;font-weight:800}
-.feature-grid article h2{margin:0 0 10px;font-size:19px;letter-spacing:-.02em;line-height:1.4}
+main>.feature-grid{margin-top:44px}
+.feature-grid article h2{margin:0 0 12px;font-size:19px;letter-spacing:-.02em;line-height:1.4}
 .feature-grid article h2 a{text-decoration:none;color:var(--ink);transition:color .2s}
 .feature-grid article h2 a:hover{color:var(--accent-strong)}
 .feature-grid article h2 a::after{content:" →";color:var(--accent)}
@@ -178,11 +180,13 @@ body::after{width:640px;height:640px;right:-220px;top:38vh;background:radial-gra
 /* Notice + prose */
 .notice{border:1px solid #6b5a2c;background:#231d0d;color:#e8d48a;border-radius:12px;padding:14px 16px;font-size:14px;line-height:1.5;margin:0 0 18px}
 .prose{margin-left:auto;margin-right:auto}
-.prose h1{margin:10px 0 0}
-.post-meta{font-size:12px;color:#8d7d85;margin:14px 0 0;text-transform:uppercase;letter-spacing:.1em;font-weight:600}
-.prose .lede{font-size:clamp(16px,2vw,19px);color:#cbbfc5;border-left:3px solid var(--accent);padding:8px 0 8px 18px;margin:24px 0 8px;background:linear-gradient(90deg,rgba(233,107,141,.08),transparent 70%);border-radius:0 10px 10px 0}
+.prose h1{margin:14px 0 0}
+.post-meta{font-size:12px;color:#8d7d85;margin:18px 0 0;text-transform:uppercase;letter-spacing:.1em;font-weight:600}
+.prose .lede{font-size:clamp(16px,2vw,19px);color:#cbbfc5;border-left:3px solid var(--accent);padding:10px 0 10px 18px;margin:30px 0 10px;background:linear-gradient(90deg,rgba(233,107,141,.08),transparent 70%);border-radius:0 10px 10px 0}
 .prose strong{color:var(--ink)}
 .prose a{text-underline-offset:3px}
+.prose .faq{margin:0 0 38px}
+.prose .faq+p{margin-top:34px}
 .prose code{font-family:ui-monospace,Consolas,monospace;font-size:.88em;background:#241b20;border:1px solid var(--line);border-radius:6px;padding:2px 7px;color:var(--accent-strong)}
 .prose h1{letter-spacing:-.04em;line-height:1.1}
 .prose h2{letter-spacing:-.03em;margin:52px 0 16px;padding-bottom:12px;font-size:clamp(22px,3.4vw,30px);position:relative}
