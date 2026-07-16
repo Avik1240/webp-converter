@@ -153,8 +153,6 @@ body::after{width:640px;height:640px;right:-220px;top:38vh;background:radial-gra
 .support-links a{font-weight:600;text-decoration:none;color:var(--accent-strong);font-size:14px}
 
 /* FAQ */
-.faq{max-width:840px}
-.prose .faq{max-width:none}
 .faq details{border-bottom:1px solid var(--line);padding:18px 0}
 .faq summary{font-weight:600;cursor:pointer;list-style:none;padding-right:25px;position:relative}
 .faq summary::after{content:"+";position:absolute;right:4px;color:var(--accent-strong);font-size:20px;font-weight:400;transition:transform .2s}
