@@ -154,6 +154,7 @@ body::after{width:640px;height:640px;right:-220px;top:38vh;background:radial-gra
 
 /* FAQ */
 .faq{max-width:840px}
+.prose .faq{max-width:none}
 .faq details{border-bottom:1px solid var(--line);padding:18px 0}
 .faq summary{font-weight:600;cursor:pointer;list-style:none;padding-right:25px;position:relative}
 .faq summary::after{content:"+";position:absolute;right:4px;color:var(--accent-strong);font-size:20px;font-weight:400;transition:transform .2s}
@@ -167,10 +168,11 @@ body::after{width:640px;height:640px;right:-220px;top:38vh;background:radial-gra
 .footer-grid h2{font-size:13px;margin:0 0 8px;color:var(--ink)}
 .footer-grid a{display:block;margin:6px 0}
 .footer-bottom{border-top:1px solid var(--line);padding-top:18px;margin-top:32px;display:flex;justify-content:space-between;color:var(--muted);font-size:12px}
+.site-footer .footer-bottom:first-child{border-top:0;margin-top:0;padding-top:0}
 
 /* Notice + prose */
 .notice{border:1px solid #6b5a2c;background:#231d0d;color:#e8d48a;border-radius:12px;padding:14px 16px;font-size:14px;line-height:1.5;margin:0 0 18px}
-.prose{max-width:840px;margin-left:auto;margin-right:auto}
+.prose{margin-left:auto;margin-right:auto}
 .prose h1{letter-spacing:-.04em;line-height:1.1}
 .prose h2{letter-spacing:-.03em;margin:34px 0 10px;font-size:clamp(22px,3.4vw,30px)}
 .prose p{color:var(--muted);font-size:15px;line-height:1.7}
@@ -185,6 +187,14 @@ body::after{width:640px;height:640px;right:-220px;top:38vh;background:radial-gra
 /* Scroll-reveal animation */
 .reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}
 .reveal.in-view{opacity:1;transform:none}
+
+
+/* Related converters (landing pages) */
+.related-tools{padding:8px 0 72px}
+.related-tools h2{font-size:clamp(22px,3.4vw,30px);letter-spacing:-.03em;margin:0 0 18px}
+
+/* Landing/blog footers that only have the bottom row: no orphan divider band */
+.site-footer>.footer-bottom:first-child{margin-top:0;border-top:0;padding-top:0}
 
 @keyframes rise{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:none}}
 @keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}

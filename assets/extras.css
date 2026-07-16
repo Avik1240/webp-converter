@@ -1,1 +1,7 @@
-.ad-sidebar{min-height:58px;margin:18px auto 0}.sponsored>p:not(.eyebrow),.share-section>p:not(.eyebrow){color:var(--muted);}.sponsored small{display:block;font-weight:500;color:var(--muted);margin-top:3px}.placeholder-note{font-size:12px;font-style:italic}.share-section .button{margin:4px 4px 0 0}
+.ad-sidebar{min-height:58px;margin:18px auto 0}
+.share-section.section{border:1px solid var(--line);border-radius:var(--radius);background:linear-gradient(135deg,rgba(55,26,38,.45),rgba(34,26,30,.65));padding:52px 28px;margin-bottom:72px}
+.share-section>p:not(.eyebrow){color:var(--muted);max-width:none}
+.share-section h2{font-size:clamp(26px,3.6vw,38px)}
+.share-section p:last-of-type{display:flex;justify-content:center;flex-wrap:wrap;gap:10px;margin:26px 0 0}
+.share-section .button{margin:0}
+@media(max-width:380px){.share-section.section{padding:32px 16px}.share-section p:last-of-type{flex-direction:column}.share-section .button{width:100%}}
