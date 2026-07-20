@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://webp-converter.jainavik2000.workers.dev/sitemap.xml
+Sitemap: https://YOURDOMAIN.com/sitemap.xml

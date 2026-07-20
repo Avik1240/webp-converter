@@ -1,12 +1,18 @@
 {
   "name": "webp-converter",
   "version": "1.0.0",
-  "private": true,
-  "description": "A free, private, browser-based image converter.",
+  "description": "Free, unlimited, private, open-source image to WebP converter that runs entirely in the browser.",
+  "type": "module",
   "scripts": {
-    "test": "node scripts/validate-static.mjs",
-    "lint": "node --check assets/app.js && node --check assets/site.js && node --check assets/conversion-page.js",
-    "build": "npm run lint && npm test"
+    "build": "node scripts/generate.mjs",
+    "serve": "npx serve .",
+    "lint:html": "npx --yes html-validate \"index.html\" \"convert/**/*.html\" \"blog/**/*.html\" \"404.html\"",
+    "test": "node scripts/generate.mjs && echo 'build ok'"
   },
-  "license": "UNLICENSED"
+  "keywords": ["webp", "image-converter", "jpg-to-webp", "png-to-webp", "open-source", "static-site"],
+  "license": "MIT",
+  "devDependencies": {
+    "html-validate": "^8.0.0",
+    "serve": "^14.0.0"
+  }
 }

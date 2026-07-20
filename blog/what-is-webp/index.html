@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What Is WebP? A Plain-English Guide (2026)</title>
+  <meta name="description" content="WebP is a modern image format that makes files 25–35% smaller than JPEG and PNG. Learn what WebP is, how it works, browser support, and when to use it.">
+  <link rel="canonical" href="https://YOURDOMAIN.com/blog/what-is-webp/">
+  <meta name="theme-color" content="#4f46e5">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="What Is WebP? A Plain-English Guide">
+  <meta property="og:description" content="What WebP is, how it compresses images, browser support, and when to use it.">
+  <meta property="og:url" content="https://YOURDOMAIN.com/blog/what-is-webp/">
+  <meta property="og:image" content="https://YOURDOMAIN.com/assets/img/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Article","headline":"What Is WebP? A Plain-English Guide","description":"What WebP is, how it compresses images, browser support, and when to use it.","author":{"@type":"Organization","name":"WebP Converter"},"publisher":{"@type":"Organization","name":"WebP Converter","logo":{"@type":"ImageObject","url":"https://YOURDOMAIN.com/assets/img/favicon.svg"}},"datePublished":"2026-01-10","dateModified":"2026-06-15","mainEntityOfPage":"https://YOURDOMAIN.com/blog/what-is-webp/"}
+  </script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://YOURDOMAIN.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://YOURDOMAIN.com/blog/"},{"@type":"ListItem","position":3,"name":"What Is WebP?","item":"https://YOURDOMAIN.com/blog/what-is-webp/"}]}
+  </script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is WebP better than JPEG?","acceptedAnswer":{"@type":"Answer","text":"For most web use, yes. WebP files are typically 25–35% smaller than JPEG at equivalent quality, and WebP also supports transparency and animation, which JPEG does not."}},{"@type":"Question","name":"Do all browsers support WebP?","acceptedAnswer":{"@type":"Answer","text":"Yes. WebP is supported by all current major browsers including Chrome, Edge, Firefox and Safari, on both desktop and mobile."}},{"@type":"Question","name":"Does WebP lose quality?","acceptedAnswer":{"@type":"Answer","text":"WebP offers both lossy and lossless modes. Lossy WebP discards some data like JPEG but more efficiently; lossless WebP preserves every pixel like PNG."}}]}
+  </script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="/"><svg class="brand-mark" width="32" height="32" viewBox="0 0 36 36" aria-hidden="true"><rect width="36" height="36" rx="9" fill="#4f46e5"/><path d="M10 24V12l6 8 4-5 6 9H10Z" fill="#fff"/></svg><span>WebP Converter</span></a>
+    <nav class="nav-links" id="navLinks" aria-label="Primary"><a href="/#features">Features</a><a href="/blog/">Blog</a><a href="/#faq">FAQ</a><a class="btn btn-secondary btn-sm" href="https://github.com/YOUR-USERNAME/webp-converter" rel="noopener">GitHub ★</a></nav>
+  </div>
+</header>
+
+<main id="main" class="section">
+  <article class="container prose">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/blog/">Blog</a> / What Is WebP?</nav>
+    <h1>What Is WebP? A Plain-English Guide</h1>
+    <p class="muted">Updated June 2026 · 6 min read</p>
+
+    <p>WebP is a modern image format developed by Google that compresses photos and graphics more efficiently than the older JPEG and PNG formats. In practice, that means a WebP image usually looks the same as a JPEG or PNG but takes up noticeably less space — which makes web pages load faster.</p>
+
+    <h2>How WebP compresses images</h2>
+    <p>WebP supports two modes. <strong>Lossy WebP</strong> works like JPEG: it throws away some image data your eye is unlikely to notice, but it uses smarter prediction and entropy coding, so it discards less for the same quality. <strong>Lossless WebP</strong> works like PNG: it keeps every pixel, but reconstructs the image from compact transforms, typically landing about 26% smaller than an equivalent PNG.</p>
+    <p>WebP also keeps the two features designers love about PNG and GIF: an <strong>alpha channel</strong> (transparency) and <strong>animation</strong>. That combination — small files plus transparency plus animation — is why it became a web standard.</p>
+
+    <h2>How much smaller is WebP?</h2>
+    <table>
+      <thead><tr><th>Comparison</th><th>Typical size reduction</th></tr></thead>
+      <tbody>
+        <tr><td>Lossy WebP vs JPEG</td><td>25–35% smaller</td></tr>
+        <tr><td>Lossless WebP vs PNG</td><td>~26% smaller</td></tr>
+        <tr><td>WebP vs GIF (animation)</td><td>Often 50%+ smaller</td></tr>
+      </tbody>
+    </table>
+    <p>Exact numbers depend on the image, but the direction is consistent: WebP is smaller. For image-heavy pages, that translates directly into faster <a href="/blog/webp-vs-png/">Largest Contentful Paint</a> and better Core Web Vitals scores.</p>
+
+    <h2>Browser support</h2>
+    <p>WebP is supported by every current major browser: Chrome, Edge, Firefox, Safari and all mainstream mobile browsers. Support has been universal across modern browsers for years, so for most audiences you can serve WebP without a fallback.</p>
+
+    <h2>When should you use WebP?</h2>
+    <ul>
+      <li><strong>Website images:</strong> almost always — it's the single easiest speed win.</li>
+      <li><strong>Logos and UI graphics:</strong> use lossless WebP to keep transparency at a smaller size than PNG.</li>
+      <li><strong>Photographs:</strong> use lossy WebP at quality 75–85 for a strong size/quality balance.</li>
+      <li><strong>Print or archival masters:</strong> keep the original (TIFF/PNG); WebP is for delivery, not archiving.</li>
+    </ul>
+
+    <h2>Convert to WebP right now</h2>
+    <p>You don't need software. Our <a href="/">free WebP converter</a> runs in your browser — drop in a <a href="/convert/jpg-to-webp/">JPG</a>, <a href="/convert/png-to-webp/">PNG</a> or <a href="/convert/heic-to-webp/">HEIC</a> file and download a WebP in seconds. Nothing is uploaded, and there's no limit.</p>
+    <p style="margin-top:24px"><a class="btn btn-primary btn-lg" href="/">Open the converter</a></p>
+
+    <h2>FAQ</h2>
+    <details class="faq-item" open><summary>Is WebP better than JPEG?</summary><p>For most web use, yes — 25–35% smaller at equivalent quality, plus transparency and animation support.</p></details>
+    <details class="faq-item"><summary>Do all browsers support WebP?</summary><p>Yes, all current major browsers support WebP on desktop and mobile.</p></details>
+    <details class="faq-item"><summary>Does WebP lose quality?</summary><p>It depends on the mode. Lossy WebP discards some data efficiently; lossless WebP keeps every pixel.</p></details>
+  </article>
+</main>
+
+<footer class="site-footer"><div class="container"><div class="footer-bottom" style="border:0"><span>© <span id="year">2026</span> WebP Converter — MIT License</span><span><a href="https://github.com/YOUR-USERNAME/webp-converter" rel="noopener">GitHub</a></span></div></div></footer>
+<script>document.getElementById("year").textContent=new Date().getFullYear();</script>
+</body>
+</html>

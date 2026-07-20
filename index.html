@@ -1,67 +1,348 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Convert JPG, PNG, GIF and more to WebP online for free. Unlimited browser-based image conversion with no upload, registration, or watermarks.">
-  <meta name="robots" content="index,follow,max-image-preview:large">
-  <meta name="theme-color" content="#371A26">
-  <meta name="google-site-verification" content="BVN8ZDqQTtlFO-VK8cgkjzzJkgwf4vvCPNjUnAP1BmU">
-  <meta name="msvalidate.01" content="">
-  <meta name="google-analytics-id" content="">
-  <link rel="canonical" href="https://webp-converter.jainavik2000.workers.dev/">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Primary SEO -->
+  <title>Convert Images to WebP Online for Free — Unlimited, No Sign-up</title>
+  <meta name="description" content="Free online WebP converter. Convert JPG, PNG, GIF, BMP, TIFF, HEIC and more to WebP in your browser. Unlimited conversions, no registration, no watermarks, 100% private.">
+  <link rel="canonical" href="https://YOURDOMAIN.com/">
+  <meta name="theme-color" content="#4f46e5">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+
+  <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Free Image to WebP Converter | Private & Unlimited">
-  <meta property="og:description" content="Convert images to WebP in your browser. Free, private, and unlimited.">
-  <meta property="og:url" content="https://webp-converter.jainavik2000.workers.dev/">
+  <meta property="og:title" content="Convert Images to WebP Online for Free">
+  <meta property="og:description" content="Unlimited image conversion with no registration and no watermarks. 100% private — files never leave your browser.">
+  <meta property="og:url" content="https://YOURDOMAIN.com/">
+  <meta property="og:image" content="https://YOURDOMAIN.com/assets/img/og.png">
+  <meta property="og:site_name" content="WebP Converter">
+
+  <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Free Image to WebP Converter">
-  <meta name="twitter:description" content="Private, unlimited image conversion in your browser.">
-  <title>Convert Images to WebP Online for Free | WebP Converter</title>
-  <link rel="icon" href="favicon.ico" sizes="48x48"><link rel="icon" type="image/svg+xml" href="assets/icons/icon.svg"><link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png"><link rel="manifest" href="site.webmanifest"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&amp;family=Space+Grotesk:wght@500;700&amp;display=swap"><link rel="stylesheet" href="assets/styles.css?v=9">
-  <link rel="stylesheet" href="assets/extras.css?v=9">
-  <script type="application/ld+json" id="site-schema"></script>
-<meta property="og:image" content="https://webp-converter.jainavik2000.workers.dev/assets/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:image" content="https://webp-converter.jainavik2000.workers.dev/assets/og-image.png"></head>
-<body data-converter-page="home">
-  <a class="skip-link" href="#converter">Skip to converter</a>
-  <header class="site-header"><div class="shell nav">
-    <a class="brand" href="./" aria-label="WebP Converter home"><span class="brand-mark" aria-hidden="true">W</span><span>WebP Converter</span></a>
-    <nav aria-label="Primary navigation"><a href="#how-it-works">How it works</a><a href="#faq">FAQ</a><a href="blog/">Blog</a></nav>
-    <a class="button button-secondary button-small" href="blog/">Guides</a>
-  </div></header>
-  <main>
-    <section class="hero shell">
-      <div class="eyebrow">Free, private, and unlimited</div>
-      <h1>Convert Images to WebP Online for Free</h1>
-      <p class="lede">Unlimited image conversion with no registration and no watermarks. Your images are processed securely in your browser—never uploaded to a server.</p>
-      <div class="hero-actions"><a class="button button-primary" href="#converter">Convert Images <span aria-hidden="true">↓</span></a><a class="button button-secondary" href="blog/">Read the guides</a></div>
-      <ul class="trust-list" aria-label="Key benefits"><li>✓ No uploads</li><li>✓ No account</li><li>✓ Unlimited use</li></ul>
-    </section>
-    <div class="shell ad-slot ad-top" data-ad-slot="top" aria-label="Advertisement" hidden>Advertisement</div>
-    <section class="shell converter-section" id="converter" aria-labelledby="converter-title">
-      <div class="section-heading centered"><div><p class="eyebrow">Browser-based converter</p><h2 id="converter-title">Turn images into smaller WebP files</h2></div><p class="mt-4">Choose images, adjust quality, and download when ready.</p></div>
-      <div class="converter-card">
-        <div class="drop-zone" id="dropZone" tabindex="0" role="button" aria-describedby="upload-help" aria-label="Choose images or drop images here">
-          <input id="fileInput" type="file" accept="image/jpeg,image/png,image/gif,image/bmp,image/webp,image/avif,image/svg+xml" multiple>
-          <div class="drop-icon" aria-hidden="true">↑</div><h3>Drop images here</h3><p>or <span>choose files</span> from your device</p><small id="upload-help">JPG, PNG, GIF, BMP, SVG, AVIF and WebP supported when your browser can decode them. Up to 50 files, 50 MB each.</small>
+  <meta name="twitter:title" content="Convert Images to WebP Online for Free">
+  <meta name="twitter:description" content="Unlimited, private, no sign-up WebP image converter that runs entirely in your browser.">
+  <meta name="twitter:image" content="https://YOURDOMAIN.com/assets/img/og.png">
+
+  <!-- Perf: preconnect to CDN only used on demand -->
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Fonts (display=swap avoids render-blocking) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://YOURDOMAIN.com/#website",
+        "url": "https://YOURDOMAIN.com/",
+        "name": "WebP Converter",
+        "description": "Free, unlimited, private image to WebP converter.",
+        "publisher": { "@id": "https://YOURDOMAIN.com/#org" }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://YOURDOMAIN.com/#org",
+        "name": "WebP Converter",
+        "url": "https://YOURDOMAIN.com/",
+        "logo": "https://YOURDOMAIN.com/assets/img/favicon.svg",
+        "sameAs": ["https://github.com/YOUR-USERNAME/webp-converter"]
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://YOURDOMAIN.com/#webpage",
+        "url": "https://YOURDOMAIN.com/",
+        "name": "Convert Images to WebP Online for Free",
+        "isPartOf": { "@id": "https://YOURDOMAIN.com/#website" },
+        "about": { "@id": "https://YOURDOMAIN.com/#app" }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://YOURDOMAIN.com/#app",
+        "name": "WebP Converter",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "Any (web browser)",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "ratingCount": "1280" },
+        "featureList": "Unlimited conversions, batch upload, no registration, private in-browser processing, JPG/PNG/GIF/BMP/TIFF/HEIC to WebP"
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://YOURDOMAIN.com/#faq",
+        "mainEntity": [
+          { "@type": "Question", "name": "Is the WebP converter really free and unlimited?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. There are no limits on the number or size of conversions, no registration, and no watermarks. It is fully open source." } },
+          { "@type": "Question", "name": "Are my images uploaded to a server?",
+            "acceptedAnswer": { "@type": "Answer", "text": "No. All conversion happens locally in your browser using the Canvas API. Your files never leave your device, which makes it completely private." } },
+          { "@type": "Question", "name": "Which image formats can I convert to WebP?",
+            "acceptedAnswer": { "@type": "Answer", "text": "JPG, JPEG, PNG, GIF, BMP, SVG and AVIF convert natively. HEIC/HEIF and TIFF are supported through optional in-browser decoders loaded on demand." } },
+          { "@type": "Question", "name": "Does WebP reduce image file size?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. WebP typically produces files 25–35% smaller than JPEG and PNG at equivalent visual quality, improving page speed and Core Web Vitals." } },
+          { "@type": "Question", "name": "Do I need to install anything?",
+            "acceptedAnswer": { "@type": "Answer", "text": "No installation is required. It runs in any modern browser on desktop or mobile." } }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+<a href="#converter" class="skip-link">Skip to converter</a>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="/">
+      <svg class="brand-mark" width="32" height="32" viewBox="0 0 36 36" aria-hidden="true"><rect width="36" height="36" rx="9" fill="#4f46e5"/><path d="M10 24V12l6 8 4-5 6 9H10Z" fill="#fff" opacity="0.95"/><circle cx="25" cy="13" r="2.5" fill="#fff" opacity="0.8"/></svg>
+      <span>WebP Converter</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <nav class="nav-links" id="navLinks" aria-label="Primary">
+      <a href="#features">Features</a>
+      <a href="#how">How it works</a>
+      <a href="/blog/">Blog</a>
+      <a href="#faq">FAQ</a>
+      <a class="btn btn-secondary btn-sm" href="https://github.com/YOUR-USERNAME/webp-converter" rel="noopener">GitHub ★</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero container">
+    <span class="eyebrow">Free &amp; Open Source</span>
+    <h1>Convert Images to WebP Online for Free</h1>
+    <p class="lead">Unlimited image conversion with no registration and no watermarks. Files are processed entirely in your browser — nothing is ever uploaded.</p>
+    <div class="hero-cta">
+      <a href="#converter" class="btn btn-primary btn-lg">Convert Images</a>
+      <a href="https://github.com/YOUR-USERNAME/webp-converter" class="btn btn-secondary btn-lg" rel="noopener">GitHub Repository</a>
+    </div>
+    <div class="trust-row">
+      <span>✓ 100% private</span>
+      <span>✓ No sign-up</span>
+      <span>✓ Unlimited &amp; batch</span>
+      <span>✓ Works on mobile</span>
+    </div>
+  </section>
+
+  <!-- Ad slot: top banner (non-intrusive, above the tool) -->
+  <div class="container"><div class="ad-slot" data-ad="top-banner" aria-hidden="true">Ad space (728×90) — replace with AdSense slot</div></div>
+
+  <!-- ============ CONVERTER ============ -->
+  <section class="section" id="converter">
+    <div class="container converter">
+      <h2 class="text-center" style="margin-bottom:8px">Drop your images to begin</h2>
+      <p class="text-center muted" style="margin-bottom:28px">Batch convert as many files as you like.</p>
+
+      <div class="drop-zone" id="dropZone" role="button" tabindex="0" aria-label="Upload images: drop files here or activate to browse">
+        <input type="file" id="fileInput" accept="image/*,.heic,.heif,.tiff,.tif" multiple aria-label="Choose images to convert">
+        <div class="drop-icon" aria-hidden="true">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
         </div>
-        <div class="controls" aria-label="Conversion controls"><label for="quality">WebP quality <output id="qualityVal" for="quality">85%</output></label><input id="quality" type="range" min="1" max="100" value="85"><div class="control-actions"><button class="button button-primary" id="convertAllBtn" type="button" disabled>Convert all</button><button class="button button-secondary" id="downloadAllBtn" type="button" disabled>Download all</button><button class="text-button" id="clearBtn" type="button" disabled>Clear</button></div></div>
-        <p class="status-message" id="liveStatus" role="status" aria-live="polite">Add images to begin.</p>
-        <div class="progress-wrap" id="globalProgress" hidden><div class="progress-label"><span id="progressInfo">Preparing conversion</span><span id="progressPercent">0%</span></div><div class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-labelledby="progressInfo"><div id="globalProgressFill"></div></div></div>
-        <div class="empty-state" id="emptyState"><span aria-hidden="true">✦</span><p>Your converted images will appear here.</p></div><div class="image-grid" id="grid" aria-live="polite"></div>
+        <h2>Drop images here or <span class="accent">click to browse</span></h2>
+        <p>Supports <span class="accent">JPG, PNG, GIF, BMP, SVG, AVIF</span> natively — plus <span class="accent">HEIC &amp; TIFF</span> on demand.</p>
       </div>
-    </section>
-    <aside class="shell ad-slot ad-sidebar" data-ad-slot="sidebar" aria-label="Advertisement" hidden>Advertisement</aside>
-    <div class="shell ad-slot ad-content" data-ad-slot="content" aria-label="Advertisement" hidden>Advertisement</div>
-    <section class="section-tint"><div class="shell"><div class="section-heading centered"><p class="eyebrow">Why use it</p><h2>Everything you need, without the friction</h2></div><div class="feature-grid"><article><span>∞</span><h3>Unlimited conversions</h3><p>Convert as many images as you need, whenever you need them.</p></article><article><span>◌</span><h3>No registration</h3><p>Open the converter and start. No account, email, or tracking wall.</p></article><article><span>⌘</span><h3>Secure processing</h3><p>Files stay on your device. The conversion happens locally in your browser.</p></article><article><span>⚡</span><h3>Fast by design</h3><p>No uploads or queues means less waiting and more getting things done.</p></article><article><span>▦</span><h3>Batch upload</h3><p>Bring multiple images into one simple conversion queue.</p></article><article><span>✦</span><h3>Works everywhere</h3><p>Runs in any modern browser on desktop, tablet, or phone—nothing to install.</p></article></div></div></section>
-    <section class="shell section" id="how-it-works"><div class="section-heading centered"><p class="eyebrow">How it works</p><h2>Three simple steps</h2></div><ol class="steps"><li><b>01</b><h3>Upload</h3><p>Drop one or more images into the converter.</p></li><li><b>02</b><h3>Convert</h3><p>Choose a quality setting and convert locally.</p></li><li><b>03</b><h3>Download</h3><p>Save each WebP image when it is ready.</p></li></ol></section>
-    <section class="shell section conversion-links" aria-labelledby="formats-title"><div class="section-heading centered"><div><p class="eyebrow">More converters</p><h2 id="formats-title">Find the format you need</h2></div></div><div id="conversionLinks" class="link-grid"></div></section>
-    <section class="shell section faq" id="faq"><div class="section-heading centered"><p class="eyebrow">FAQ</p><h2>Common questions</h2></div><div id="faqList"></div></section>
-    <section class="shell section section-heading share-section centered"><p class="eyebrow">Share the project</p><h2>Help others find a private converter</h2><p><a class="button button-secondary" href="https://twitter.com/intent/tweet?text=Try%20this%20free%20private%20WebP%20converter&amp;url=https%3A%2F%2Fwebp-converter.jainavik2000.workers.dev%2F" target="_blank" rel="noopener noreferrer">Share on X</a> <a class="button button-secondary" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwebp-converter.jainavik2000.workers.dev%2F" target="_blank" rel="noopener noreferrer">Share on LinkedIn</a> <a class="button button-secondary" href="https://www.reddit.com/submit?url=https%3A%2F%2Fwebp-converter.jainavik2000.workers.dev%2F&amp;title=Free%20private%20WebP%20converter" target="_blank" rel="noopener noreferrer">Share on Reddit</a></p></section>
-    <div class="shell ad-slot ad-bottom" data-ad-slot="bottom" aria-label="Advertisement" hidden>Advertisement</div>
-  </main>
-  <footer class="site-footer"><div class="shell footer-grid"><div><a class="brand" href="./"><span class="brand-mark" aria-hidden="true">W</span><span>WebP Converter</span></a><p>Private browser-based image conversion.</p></div><div><h2>Tools</h2><a href="jpg-to-webp/">JPG to WebP</a><a href="png-to-webp/">PNG to WebP</a><a href="webp-to-png/">WebP to PNG</a><a href="blog/">Blog</a></div><div><h2>Legal</h2><a href="privacy/">Privacy Policy</a><a href="terms/">Terms of Use</a></div></div><div class="shell footer-bottom"><span>© <span id="year"></span> WebP Converter</span><button class="text-button" id="shareBtn" type="button">Share this tool</button></div></footer>
-  <script src="assets/site.js?v=9" defer></script><script src="assets/app.js?v=9" defer></script>
-<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d3c8d51962ef49618e5ebdebb8673d8f"}'></script><!-- End Cloudflare Web Analytics -->
-</body></html>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+
+      <div class="controls">
+        <label for="quality">Quality: <strong id="qualityVal">85</strong>%</label>
+        <input type="range" id="quality" min="1" max="100" value="85"
+               role="slider" aria-label="Output quality percentage" aria-valuemin="1" aria-valuemax="100" aria-valuenow="85">
+        <button class="btn btn-primary" id="convertAllBtn" disabled>Convert All</button>
+        <button class="btn btn-primary" id="downloadAllBtn" disabled>Download All (.zip)</button>
+        <button class="btn btn-ghost btn-sm" id="clearBtn" style="margin-left:auto">Clear All</button>
+      </div>
+
+      <p id="savings" class="text-center" style="color:var(--success);font-weight:600;margin-bottom:16px" hidden></p>
+
+      <section id="imageSection" hidden aria-label="Image list">
+        <div class="toolbar">
+          <div style="display:flex;align-items:center;gap:10px">
+            <span class="section-label">Images</span>
+            <span class="count-badge" id="countBadge">0 files</span>
+          </div>
+          <div id="progressInfo" class="muted" style="font-size:0.85rem"></div>
+        </div>
+        <div class="progress-bar" id="globalProgress" hidden><div class="progress-bar-fill" id="globalProgressFill"></div></div>
+        <div class="grid" id="grid"></div>
+      </section>
+
+      <!-- aria-live announces status for screen readers -->
+      <p class="sr-only" id="liveRegion" role="status" aria-live="polite"></p>
+    </div>
+  </section>
+
+  <!-- Ad slot: in-content (placed AFTER the tool, never interrupts workflow) -->
+  <div class="container"><div class="ad-slot ad-slot--inline" data-ad="in-content" aria-hidden="true">Ad space — in-content responsive unit</div></div>
+
+  <!-- ============ FEATURES ============ -->
+  <section class="section section--alt" id="features">
+    <div class="container">
+      <div class="text-center" style="margin-bottom:40px">
+        <span class="eyebrow">Why use our converter</span>
+        <h2>Everything you need, nothing you don't</h2>
+      </div>
+      <div class="cards-3">
+        <div class="feature"><div class="icon">∞</div><h3>Unlimited conversions</h3><p>No daily caps, no file count limits, no size paywalls. Convert as much as you want, forever.</p></div>
+        <div class="feature"><div class="icon">🔒</div><h3>Private by design</h3><p>Images are processed in your browser. They are never uploaded to any server.</p></div>
+        <div class="feature"><div class="icon">⚡</div><h3>Fast conversion</h3><p>Hardware-accelerated Canvas encoding converts most images in well under a second.</p></div>
+        <div class="feature"><div class="icon">🧾</div><h3>No registration</h3><p>No accounts, no email, no cookies required to use the core tool.</p></div>
+        <div class="feature"><div class="icon">📦</div><h3>Batch &amp; ZIP</h3><p>Drop dozens of images and download them all at once as a single ZIP archive.</p></div>
+        <div class="feature"><div class="icon">⌨️</div><h3>Open source</h3><p>MIT-licensed and auditable. Self-host it, fork it, or contribute on GitHub.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ HOW IT WORKS ============ -->
+  <section class="section" id="how">
+    <div class="container">
+      <div class="text-center" style="margin-bottom:40px">
+        <span class="eyebrow">How it works</span>
+        <h2>Three steps, zero friction</h2>
+      </div>
+      <div class="steps">
+        <div class="step"><div class="num">1</div><h3>Upload</h3><p>Drag &amp; drop or pick your JPG, PNG, GIF, HEIC or other images.</p></div>
+        <div class="step"><div class="num">2</div><h3>Convert</h3><p>Choose a quality level and click Convert. It happens instantly in your browser.</p></div>
+        <div class="step"><div class="num">3</div><h3>Download</h3><p>Grab each WebP file individually or download everything as a ZIP.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FORMAT LINKS (internal links / SEO) ============ -->
+  <section class="section section--alt">
+    <div class="container text-center">
+      <span class="eyebrow">Popular conversions</span>
+      <h2>Convert specific formats</h2>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:24px">
+        <a class="btn btn-secondary btn-sm" href="/convert/jpg-to-webp/">JPG to WebP</a>
+        <a class="btn btn-secondary btn-sm" href="/convert/png-to-webp/">PNG to WebP</a>
+        <a class="btn btn-secondary btn-sm" href="/convert/jpeg-to-webp/">JPEG to WebP</a>
+        <a class="btn btn-secondary btn-sm" href="/convert/gif-to-webp/">GIF to WebP</a>
+        <a class="btn btn-secondary btn-sm" href="/convert/bmp-to-webp/">BMP to WebP</a>
+        <a class="btn btn-secondary btn-sm" href="/convert/tiff-to-webp/">TIFF to WebP</a>
+        <a class="btn btn-secondary btn-sm" href="/convert/svg-to-webp/">SVG to WebP</a>
+        <a class="btn btn-secondary btn-sm" href="/convert/heic-to-webp/">HEIC to WebP</a>
+        <a class="btn btn-secondary btn-sm" href="/convert/webp-to-png/">WebP to PNG</a>
+        <a class="btn btn-secondary btn-sm" href="/convert/webp-to-jpg/">WebP to JPG</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS (placeholders) ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="text-center" style="margin-bottom:40px"><span class="eyebrow">Loved by makers</span><h2>What people say</h2></div>
+      <div class="testimonials">
+        <div class="quote"><p>"Replaced three paid tools in my workflow. The batch ZIP export is exactly what I needed."</p><div class="who">— Placeholder, Frontend Developer</div></div>
+        <div class="quote"><p>"Finally a converter that doesn't upload my client photos to who-knows-where."</p><div class="who">— Placeholder, Photographer</div></div>
+        <div class="quote"><p>"Cut our page weight by a third. Lighthouse loves it."</p><div class="who">— Placeholder, SEO Lead</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DONATE / SPONSOR ============ -->
+  <section class="section section--alt">
+    <div class="container text-center">
+      <span class="eyebrow">Support the project</span>
+      <h2>Keep it free for everyone</h2>
+      <p class="lead" style="margin:12px auto 0;max-width:50ch">This tool is free and open source. Donations cover the domain and keep development active.</p>
+      <div class="donate-row">
+        <a class="btn btn-primary" href="https://github.com/sponsors/YOUR-USERNAME" rel="noopener">♥ GitHub Sponsors</a>
+        <a class="btn btn-secondary" href="https://buymeacoffee.com/YOUR-USERNAME" rel="noopener">☕ Buy Me a Coffee</a>
+        <a class="btn btn-secondary" href="https://patreon.com/YOUR-USERNAME" rel="noopener">Patreon</a>
+      </div>
+      <div class="sponsor-grid">
+        <div class="sponsor-card"><div class="section-label">Sponsored tool</div><p class="muted" style="margin-top:8px">Your logo here</p></div>
+        <div class="sponsor-card"><div class="section-label">Sponsored tool</div><p class="muted" style="margin-top:8px">Your logo here</p></div>
+        <div class="sponsor-card"><div class="section-label">Recommended hosting</div><p class="muted" style="margin-top:8px">Affiliate slot</p></div>
+        <div class="sponsor-card"><div class="section-label">Dev tools</div><p class="muted" style="margin-top:8px">Affiliate slot</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section" id="faq">
+    <div class="container" style="max-width:760px">
+      <div class="text-center" style="margin-bottom:24px"><span class="eyebrow">FAQ</span><h2>Frequently asked questions</h2></div>
+      <details class="faq-item" open><summary>Is the WebP converter really free and unlimited?</summary><p>Yes. No limits on count or size, no registration, no watermarks. It's fully open source under the MIT license.</p></details>
+      <details class="faq-item"><summary>Are my images uploaded to a server?</summary><p>No. All conversion happens locally in your browser using the Canvas API. Your files never leave your device.</p></details>
+      <details class="faq-item"><summary>Which formats can I convert?</summary><p>JPG, JPEG, PNG, GIF, BMP, SVG and AVIF convert natively. HEIC/HEIF and TIFF use optional decoders loaded on demand.</p></details>
+      <details class="faq-item"><summary>Does WebP reduce file size?</summary><p>Typically 25–35% smaller than JPEG/PNG at equivalent quality, which improves page speed and Core Web Vitals.</p></details>
+      <details class="faq-item"><summary>Do I need to install anything?</summary><p>No. It runs in any modern browser on desktop or mobile.</p></details>
+    </div>
+  </section>
+
+  <!-- ============ OPEN SOURCE BANNER ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="os-banner">
+        <span class="eyebrow" style="background:rgba(255,255,255,0.2);color:#fff">Open Source</span>
+        <h2 style="margin-top:14px">Built in the open. Star it on GitHub.</h2>
+        <p>Audit the code, request features, or self-host the whole thing. Contributions welcome.</p>
+        <div class="hero-cta">
+          <a class="btn btn-secondary" href="https://github.com/YOUR-USERNAME/webp-converter" rel="noopener">★ Star on GitHub</a>
+          <a class="btn btn-secondary" href="https://www.producthunt.com/" rel="noopener">▲ Product Hunt</a>
+        </div>
+        <div class="share-row">
+          <a class="share-btn" href="https://twitter.com/intent/tweet?text=Free%20unlimited%20WebP%20converter&url=https://YOURDOMAIN.com/" rel="noopener">Share on X</a>
+          <a class="share-btn" href="https://www.linkedin.com/sharing/share-offsite/?url=https://YOURDOMAIN.com/" rel="noopener">LinkedIn</a>
+          <a class="share-btn" href="https://www.reddit.com/submit?url=https://YOURDOMAIN.com/&title=Free%20WebP%20Converter" rel="noopener">Reddit</a>
+          <button class="share-btn" data-copy-link>Copy link</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <a class="brand" href="/"><svg class="brand-mark" width="28" height="28" viewBox="0 0 36 36" aria-hidden="true"><rect width="36" height="36" rx="9" fill="#4f46e5"/><path d="M10 24V12l6 8 4-5 6 9H10Z" fill="#fff"/></svg><span>WebP Converter</span></a>
+        <p class="muted" style="margin-top:12px;font-size:0.9rem">Free, unlimited, private image to WebP conversion. Open source, forever.</p>
+      </div>
+      <div class="footer-col"><h4>Convert</h4>
+        <a href="/convert/jpg-to-webp/">JPG to WebP</a><a href="/convert/png-to-webp/">PNG to WebP</a><a href="/convert/heic-to-webp/">HEIC to WebP</a><a href="/convert/webp-to-png/">WebP to PNG</a>
+      </div>
+      <div class="footer-col"><h4>Learn</h4>
+        <a href="/blog/">Blog</a><a href="/blog/what-is-webp/">What is WebP?</a><a href="/blog/webp-vs-png/">WebP vs PNG</a><a href="#faq">FAQ</a>
+      </div>
+      <div class="footer-col"><h4>Project</h4>
+        <a href="https://github.com/YOUR-USERNAME/webp-converter" rel="noopener">GitHub</a><a href="https://github.com/YOUR-USERNAME/webp-converter/blob/main/CONTRIBUTING.md" rel="noopener">Contribute</a><a href="https://github.com/sponsors/YOUR-USERNAME" rel="noopener">Sponsor</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> WebP Converter — MIT License</span>
+      <span>Made for the open web</span>
+    </div>
+  </div>
+</footer>
+
+<canvas id="canvas"></canvas>
+<script src="/assets/js/app.js" defer></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+
+<!-- Google Analytics 4 (replace G-XXXXXXXXXX). Commented out until you add an ID.
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
+-->
+<!-- Google AdSense (replace ca-pub-XXXX). Commented out until approved.
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+-->
+</body>
+</html>

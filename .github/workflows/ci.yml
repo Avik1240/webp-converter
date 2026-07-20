@@ -1,15 +1,35 @@
 name: CI
+
 on:
-  pull_request:
   push:
     branches: [main]
-permissions:
-  contents: read
+  pull_request:
+    branches: [main]
+
 jobs:
-  validate:
+  build-and-validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-node@v4
-        with: {node-version: 22}
-      - run: npm run build
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate pages + sitemap
+        run: npm run build
+
+      - name: Fail if generated output is stale
+        run: |
+          if [ -n "$(git status --porcelain convert sitemap.xml)" ]; then
+            echo "::error::Generated files are out of date. Run 'npm run build' and commit the result."
+            git --no-pager diff --stat
+            exit 1
+          fi
+
+      - name: Validate HTML
+        run: npm run lint:html

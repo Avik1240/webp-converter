@@ -1,0 +1,229 @@
+{
+  "site": {
+    "url": "https://YOURDOMAIN.com",
+    "name": "WebP Converter",
+    "github": "https://github.com/YOUR-USERNAME/webp-converter"
+  },
+  "pages": [
+    {
+      "slug": "jpg-to-webp",
+      "from": "JPG", "to": "WebP",
+      "h1": "Convert JPG to WebP Online",
+      "title": "JPG to WebP Converter — Free, Unlimited, No Sign-up",
+      "description": "Convert JPG to WebP free and online. Shrink photos 25–35% with no quality loss, no uploads, and no limits. Batch convert in your browser.",
+      "keyword": "jpg to webp",
+      "intro": "JPG (JPEG) is the default for photographs, but it lacks transparency and compresses less efficiently than modern formats. Converting JPG to WebP typically cuts file size 25–35% at the same visual quality, which speeds up your pages and improves Core Web Vitals. This converter does it instantly in your browser — your photos are never uploaded.",
+      "why": "WebP uses both lossy and lossless compression with better entropy coding than JPEG, so a WebP file at quality 80 usually looks identical to the JPEG but weighs noticeably less. For image-heavy pages, that compounds into real load-time savings.",
+      "bullets": [
+        "Average 25–35% smaller files than the source JPG",
+        "Adjustable quality slider from 1–100",
+        "Batch convert hundreds of JPGs at once",
+        "100% private — conversion runs locally, nothing is uploaded"
+      ],
+      "faqs": [
+        ["Does converting JPG to WebP lose quality?", "At quality 80–90 the difference is visually imperceptible while the file is meaningfully smaller. Lower the slider for more compression or raise it for maximum fidelity."],
+        ["Will WebP work on all browsers?", "Yes. WebP is supported by all modern browsers including Chrome, Edge, Firefox, Safari and mobile browsers."],
+        ["Can I convert many JPGs at once?", "Yes. Drop a whole folder of JPGs, click Convert All, then Download All as a ZIP."],
+        ["Is there a file size or count limit?", "No usage limit. Individual files up to 50MB are accepted by default."]
+      ]
+    },
+    {
+      "slug": "png-to-webp",
+      "from": "PNG", "to": "WebP",
+      "h1": "Convert PNG to WebP Online",
+      "title": "PNG to WebP Converter — Free, Keeps Transparency",
+      "description": "Convert PNG to WebP online for free. Preserve transparency, cut file size dramatically, no uploads, no registration. Unlimited batch conversion.",
+      "keyword": "png to webp",
+      "intro": "PNG is great for logos, icons and screenshots because it supports transparency and lossless quality — but PNG files are often huge. WebP supports transparency too, and its lossless mode is usually 26% smaller than PNG, while lossy WebP can be far smaller. Convert PNG to WebP here without uploading a thing.",
+      "why": "WebP keeps the alpha channel (transparency) that PNG is prized for, so you get the same crisp edges on logos and UI assets at a fraction of the bytes. That makes it ideal for web graphics where PNG was previously the only transparency option.",
+      "bullets": [
+        "Transparency (alpha channel) is preserved",
+        "Lossless WebP averages ~26% smaller than PNG",
+        "Lossy mode available via the quality slider for even smaller files",
+        "Runs entirely in-browser — private and unlimited"
+      ],
+      "faqs": [
+        ["Does PNG to WebP keep transparency?", "Yes. WebP fully supports an alpha channel, so transparent PNGs stay transparent after conversion."],
+        ["Should I use lossless or lossy WebP for PNG?", "For flat graphics and logos, a high quality setting looks lossless while staying small. For photos saved as PNG, a lower quality gives big savings."],
+        ["Is WebP smaller than PNG?", "Almost always. Lossless WebP is typically ~26% smaller; lossy WebP can be 60–80% smaller for complex images."],
+        ["Are my PNGs uploaded anywhere?", "No. Everything is processed locally in your browser."]
+      ]
+    },
+    {
+      "slug": "jpeg-to-webp",
+      "from": "JPEG", "to": "WebP",
+      "h1": "Convert JPEG to WebP Online",
+      "title": "JPEG to WebP Converter — Free &amp; Unlimited",
+      "description": "Convert JPEG to WebP free online. Reduce photo file size 25–35% with no quality loss. No uploads, no sign-up, unlimited batch conversion.",
+      "keyword": "jpeg to webp",
+      "intro": "JPEG and JPG are the same format — just different file extensions. Converting JPEG to WebP gives you smaller files at equivalent quality, which is one of the fastest wins for site speed. This tool converts JPEG to WebP locally in your browser with no limits.",
+      "why": "Because WebP's compression is more efficient than JPEG's, you can keep the photographic detail your audience sees while shipping fewer bytes — directly improving Largest Contentful Paint on image-led pages.",
+      "bullets": [
+        "Identical handling to JPG (same underlying format)",
+        "25–35% smaller at matched quality",
+        "Quality slider for precise size control",
+        "Private, unlimited, no registration"
+      ],
+      "faqs": [
+        ["What's the difference between JPEG and JPG?", "None. They are the same format; .jpg was historically used on systems with 3-letter extension limits."],
+        ["Is WebP better than JPEG?", "For the web, generally yes — smaller files at comparable quality, plus optional transparency and animation."],
+        ["Can I batch convert JPEGs?", "Yes, drop as many as you like and download them together as a ZIP."],
+        ["Does it work offline?", "Once loaded, native conversion works without a connection. Only HEIC/TIFF need to fetch an optional decoder."]
+      ]
+    },
+    {
+      "slug": "gif-to-webp",
+      "from": "GIF", "to": "WebP",
+      "h1": "Convert GIF to WebP Online",
+      "title": "GIF to WebP Converter — Free, Smaller Files",
+      "description": "Convert GIF to WebP online for free. WebP produces far smaller files than GIF. No uploads, no registration, unlimited conversions.",
+      "keyword": "gif to webp",
+      "intro": "GIF is an aging format with limited colors and large file sizes. Converting a GIF to WebP dramatically reduces weight. Note: this in-browser tool converts the first frame of a GIF to a still WebP; for full animated WebP, see the FAQ.",
+      "why": "Static WebP from a GIF frame is a tiny fraction of the original size, which is ideal when you only need a representative still. Animated WebP is also far lighter than GIF when you do need motion.",
+      "bullets": [
+        "Massive size reduction vs. GIF",
+        "Converts the first/representative frame to still WebP",
+        "Batch friendly and fully private",
+        "No watermark, no sign-up"
+      ],
+      "faqs": [
+        ["Does this keep GIF animation?", "This in-browser tool exports the first frame as a still WebP. Animated WebP encoding from GIF is on the roadmap and best handled by dedicated encoders today."],
+        ["Why convert GIF to WebP?", "WebP is far smaller and higher quality, which speeds up pages that previously relied on heavy GIFs."],
+        ["Is it free?", "Completely free and unlimited."],
+        ["Are files uploaded?", "No, conversion happens locally in your browser."]
+      ]
+    },
+    {
+      "slug": "bmp-to-webp",
+      "from": "BMP", "to": "WebP",
+      "h1": "Convert BMP to WebP Online",
+      "title": "BMP to WebP Converter — Free &amp; Unlimited",
+      "description": "Convert BMP to WebP free online. BMP files are uncompressed and huge — WebP shrinks them enormously. No uploads, no limits.",
+      "keyword": "bmp to webp",
+      "intro": "BMP (bitmap) files are uncompressed, so they are often enormous. Converting BMP to WebP can reduce file size by 90% or more while keeping the image looking the same. This tool does it instantly and privately in your browser.",
+      "why": "Since BMP stores raw pixel data with no compression, almost any modern codec is a big improvement — and WebP is among the most efficient, making it perfect for archiving or web use.",
+      "bullets": [
+        "Often 90%+ smaller than the original BMP",
+        "Quality slider for fine control",
+        "Batch convert and download as ZIP",
+        "Local, private, unlimited"
+      ],
+      "faqs": [
+        ["Why are BMP files so large?", "BMP is uncompressed — every pixel is stored raw. Converting to WebP applies efficient compression."],
+        ["Will the image look different?", "At high quality, no visible difference, but the file is dramatically smaller."],
+        ["Can I convert many BMPs?", "Yes, batch conversion and ZIP download are supported."],
+        ["Is registration required?", "No. The core tool needs no account."]
+      ]
+    },
+    {
+      "slug": "tiff-to-webp",
+      "from": "TIFF", "to": "WebP",
+      "h1": "Convert TIFF to WebP Online",
+      "title": "TIFF to WebP Converter — Free, In-Browser",
+      "description": "Convert TIFF to WebP online for free. Turn large print-quality TIFFs into web-ready WebP. No uploads, no registration, unlimited.",
+      "keyword": "tiff to webp",
+      "intro": "TIFF is common in photography, scanning and print, but it's not a web format and the files are large. Converting TIFF to WebP makes images web-ready and far smaller. This tool decodes TIFF using an on-demand in-browser decoder — your files still never leave your device.",
+      "why": "TIFF preserves maximum quality for archival and print, which is overkill for the web. WebP retains the visual quality your audience needs at a tiny fraction of the size.",
+      "bullets": [
+        "Handles TIFF via an on-demand in-browser decoder",
+        "Big size reduction for web delivery",
+        "Private — nothing is uploaded",
+        "Unlimited and free"
+      ],
+      "faqs": [
+        ["How is TIFF supported in the browser?", "We load a lightweight TIFF decoder (UTIF) on demand the first time you convert a TIFF. It runs locally; no upload occurs."],
+        ["Does it handle multi-page TIFFs?", "The first page is converted. Multi-page export is on the roadmap."],
+        ["Why not keep TIFF?", "TIFF isn't supported by web browsers for display and is far too large for web pages."],
+        ["Is there a size limit?", "Files up to 50MB by default; this is adjustable when self-hosting."]
+      ]
+    },
+    {
+      "slug": "svg-to-webp",
+      "from": "SVG", "to": "WebP",
+      "h1": "Convert SVG to WebP Online",
+      "title": "SVG to WebP Converter — Rasterize Free",
+      "description": "Convert SVG to WebP online for free. Rasterize vector graphics into compact WebP images. No uploads, no sign-up, unlimited.",
+      "keyword": "svg to webp",
+      "intro": "SVG is a vector format — perfect for logos and icons that must scale. Sometimes you need a raster image instead, for example for social previews or older platforms. Converting SVG to WebP rasterizes the vector at its natural size into a compact WebP. It all happens in your browser.",
+      "why": "When a platform can't render SVG (such as some email clients or OG image consumers), a WebP raster is a small, high-quality fallback that preserves the look of your vector artwork.",
+      "bullets": [
+        "Rasterizes SVG to high-quality WebP",
+        "Compact output for social and email use",
+        "Private in-browser conversion",
+        "Free and unlimited"
+      ],
+      "faqs": [
+        ["At what resolution is the SVG rasterized?", "At the SVG's intrinsic width and height. Set explicit dimensions in the SVG for a specific output size."],
+        ["Does it keep transparency?", "Yes, WebP supports an alpha channel, so transparent SVG backgrounds stay transparent."],
+        ["Should I always convert SVG to WebP?", "Only when you need a raster image. Keep SVG where vector scaling matters."],
+        ["Is it free?", "Yes, unlimited and free."]
+      ]
+    },
+    {
+      "slug": "heic-to-webp",
+      "from": "HEIC", "to": "WebP",
+      "h1": "Convert HEIC to WebP Online",
+      "title": "HEIC to WebP Converter — iPhone Photos, Free",
+      "description": "Convert HEIC to WebP online for free. Turn iPhone HEIC photos into web-ready WebP. No uploads, no registration, runs in your browser.",
+      "keyword": "heic to webp",
+      "intro": "HEIC is the format iPhones use to save photos. It's efficient but poorly supported across the web and many apps. Converting HEIC to WebP makes your iPhone photos universally usable and web-ready. We decode HEIC with an on-demand in-browser decoder, so your photos stay on your device.",
+      "why": "HEIC compresses well but causes compatibility headaches outside Apple's ecosystem. WebP is supported everywhere on the web, so converting solves sharing and embedding problems while keeping files small.",
+      "bullets": [
+        "Decodes iPhone HEIC/HEIF locally (decoder loaded on demand)",
+        "Web-ready, universally supported output",
+        "Private — photos are never uploaded",
+        "Unlimited and free"
+      ],
+      "faqs": [
+        ["How does HEIC conversion work without uploading?", "We load a HEIC decoder (heic2any) on demand the first time you convert one. It runs in your browser; nothing is sent to a server."],
+        ["Why are my photos HEIC?", "iPhones default to HEIC to save space. You can also change this in iOS camera settings."],
+        ["Is WebP better than HEIC for the web?", "For web use, yes — WebP is widely supported by browsers while HEIC often isn't."],
+        ["Does it work on mobile?", "Yes, it runs in mobile browsers too."]
+      ]
+    },
+    {
+      "slug": "webp-to-png",
+      "from": "WebP", "to": "PNG",
+      "h1": "Convert WebP to PNG Online",
+      "title": "WebP to PNG Converter — Free, Keeps Transparency",
+      "description": "Convert WebP to PNG online for free. Get lossless PNGs with transparency from WebP files. No uploads, no sign-up, unlimited.",
+      "keyword": "webp to png",
+      "intro": "Sometimes you need PNG instead of WebP — for software that doesn't accept WebP, or when you want a lossless, universally editable file. This converter turns WebP back into PNG in your browser, preserving transparency.",
+      "why": "PNG remains the safest universal format for editing tools, documents and legacy systems. Converting WebP to PNG gives you a compatible, lossless copy whenever you need it.",
+      "bullets": [
+        "Lossless PNG output",
+        "Transparency preserved",
+        "Batch convert and download as ZIP",
+        "Private and unlimited"
+      ],
+      "faqs": [
+        ["Why convert WebP to PNG?", "For compatibility with apps that don't read WebP, or when you need a lossless, widely-editable format."],
+        ["Will the PNG be larger?", "Usually yes — PNG is less efficient than WebP, but it is universally supported and lossless."],
+        ["Is transparency kept?", "Yes, the alpha channel is preserved."],
+        ["Is it free?", "Yes, unlimited and free."]
+      ]
+    },
+    {
+      "slug": "webp-to-jpg",
+      "from": "WebP", "to": "JPG",
+      "h1": "Convert WebP to JPG Online",
+      "title": "WebP to JPG Converter — Free &amp; Unlimited",
+      "description": "Convert WebP to JPG online for free. Get universally compatible JPG photos from WebP files. No uploads, no registration, unlimited.",
+      "keyword": "webp to jpg",
+      "intro": "Need a JPG instead of a WebP? Some platforms, printers and legacy tools still expect JPG. This tool converts WebP to JPG directly in your browser with adjustable quality and no upload.",
+      "why": "JPG is the most universally accepted photo format. Converting WebP to JPG guarantees your image opens anywhere, from old software to print services.",
+      "bullets": [
+        "Universally compatible JPG output",
+        "Quality slider to balance size and fidelity",
+        "Batch convert and ZIP download",
+        "Local, private, unlimited"
+      ],
+      "faqs": [
+        ["Why convert WebP to JPG?", "For maximum compatibility with software, printers and platforms that don't support WebP."],
+        ["Does JPG support transparency?", "No. Transparent areas are flattened onto a background when converting to JPG."],
+        ["Can I control quality?", "Yes, use the quality slider to balance file size and detail."],
+        ["Is it free and unlimited?", "Yes, with no registration."]
+      ]
+    }
+  ]
+}
